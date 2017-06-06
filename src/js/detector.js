@@ -29,7 +29,7 @@ SMSLink.detector = SMSLink.detector || (function () {
             os = ua.substr(uaIndex + 8, 3);
         }
         else {
-            ver = null;
+            version = null;
         }
 
         return {
